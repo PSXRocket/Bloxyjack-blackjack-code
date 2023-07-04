@@ -1,2 +1,7 @@
-# PSXDice-Rain-Source
-A rain code for psx gambling bots.
+Feature:
+/rain [gems]
+
+https://discord.gg/Acnf2BVKdg
+
+DO NOT DISTRUBUTE / REPOST, OR SELL MY CODE.
+there is some dupes in this code so beware dm me on discord for help: packski2 (username)
