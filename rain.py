@@ -1,3 +1,30 @@
+import discord
+from discord.app_commands import choices
+import json
+import random
+import time
+import datetime
+import requests
+import string
+from enum import Enum
+import cloudscraper
+import asyncio 
+from discord import app_commands
+from discord.ext import commands
+import os, threading, multiprocessing
+
+bot = commands.Bot(command_prefix=".", intents=discord.Intents.all())
+
+@bot.event
+async def on_ready():
+    try:
+        synced = await bot.tree.sync()
+        print(f"Synced {len(synced)} commands")
+    except Exception as e:
+        print(e)
+    print("packski2 is daddy and also bot is ready to listen to commands.")
+
+
 participants = {}
 rain_msg = None  # Declare rain_msg variable outside the functions
 
@@ -50,3 +77,5 @@ async def rain(interaction: discord.Interaction, amount_str: str):
     formatted_winnings = format_number(share_amount)
     embed = discord.Embed(title="☁️ Rain Ended", description="All users who joined the rain have been awarded the pot")
     await rain_channel.send(embed=embed)
+
+bot.run("ur token")
