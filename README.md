@@ -3,5 +3,5 @@ Feature:
 
 https://discord.gg/Acnf2BVKdg
 
-DO NOT DISTRUBUTE / REPOST, OR SELL MY CODE.
-there is some dupes in this code so beware dm me on discord for help: packski2 (username)
+DO NOT DISTRUBUTE / REPOST / USE, OR SELL MY CODE. THIS IS USED TO PREVENT SKIDDING AND YOU WILL BE DMCA STRIKED IF FOUND USING.
+discord for help: packski2 (username)
