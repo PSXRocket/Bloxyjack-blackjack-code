@@ -1,5 +1,5 @@
 Feature:
-/rain [gems]
+/blackjack [gems]
 
 https://discord.gg/Acnf2BVKdg
 
